@@ -12,19 +12,19 @@ A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payme
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib
-npm install bitcore-payment-protocol
+npm install bitcore-lib-alarmx
+npm install bitcore-payment-protocol-alarmx
 ```
 
 ```sh
-bower install bitcore-lib
-bower install bitcore-payment-protocol
+bower install bitcore-lib-alarmx
+bower install bitcore-payment-protocol-alarmx
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('bitcore-payment-protocol');
+var PaymentProtocol = require('bitcore-payment-protocol-alarmx');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);

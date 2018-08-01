@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-payment-protocol",
+  "name": "bitcore-payment-protocol-alarmx",
   "version": "1.7.0",
   "description": "Payment Protocol (BIP70 and related) support for bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -45,20 +45,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
+    "url": "https://github.com/alarmxcore/bitcore-payment-protocol-alarmx.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
-    "bitcore-lib": "^0.15.0",
+    "bitcore-lib-alarmx": "git://github.com/alarmxcore/bitcore-lib-alarmx.git",
     "bs58": "^4.0.1",
     "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#d4e8b2b2f1e2c065c3a807dcb6a6250f61d67ab3",
+  "bitcore-build-alarmx": "git://github.com/alarmxcore/bitcore-build-alarmx.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
