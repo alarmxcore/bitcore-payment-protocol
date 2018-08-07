@@ -1,11 +1,11 @@
-Bitcore Payment Protocol
+Bitcore-Alarmx Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-payment-protocol)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-payment-protocol)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-alarmx.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-alarmx)
+[![Build Status](https://img.shields.io/travis/alarmxcore/bitcore-payment-protocol-alarmx.svg?branch=master&style=flat-square)](https://travis-ci.org/alarmxcore/bitcore-payment-protocol-alarmx)
+[![Coverage Status](https://img.shields.io/coveralls/alarmxcore/bitcore-payment-protocol-alarmx.svg?style=flat-square)](https://coveralls.io/r/alarmxcore/bitcore-payment-protocol-alarmx)
 
-A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore-alarmx](https://github.com/alarmxcore/bitcore-alarmx) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ bower install bitcore-payment-protocol-alarmx
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('bitcore-payment-protocol-alarmx');
+var PaymentProtocol = require('bitcore-payment-protocol');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-alarmx/blob/master/CONTRIBUTING.md) on the main bitcore-alarmx repo for information about how to contribute.
 
 ## License
 

@@ -2,4 +2,4 @@
 
 var gulp_bitcore = require('bitcore-build-alarmx');
 
-gulp_bitcore('payment-protocol-alarmx');
+gulp_bitcore('payment-protocol');

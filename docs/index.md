@@ -7,22 +7,22 @@ Payment protocol is implemented as a separate module and you must add it to your
 For node projects:
 
 ```
-npm install bitcore-lib-alarmx --save
-npm install bitcore-payment-protocol-alarmx --save
+npm install bitcore-lib --save
+npm install bitcore-payment-protocol --save
 ```
 
 For client-side projects:
 
 ```
-bower install bitcore-lib-alarmx --save
-bower install bitcore-payment-protocol-alarmx --save
+bower install bitcore-lib --save
+bower install bitcore-payment-protocol --save
 ```
 
 ## Make Payment Details
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('bitcore-payment-protocol-alarmx');
+var PaymentProtocol = require('bitcore-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details
